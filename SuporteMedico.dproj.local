@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/05/08 20:29:28.000.693,=C:\Users\vinic\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/05/08 20:30:09.000.377,C:\Users\vinic\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\vinic\Documents\Embarcadero\Studio\Projects\AppSuporteMedico\UMenu.pas</Transaction>
+    <Transaction>2020/05/08 20:30:09.000.377,C:\Users\vinic\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\vinic\Documents\Embarcadero\Studio\Projects\AppSuporteMedico\UMenu.fmx</Transaction>
+    <Transaction>2020/05/08 20:30:15.000.886,C:\Users\vinic\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\vinic\Documents\Embarcadero\Studio\Projects\AppSuporteMedico\SuporteMedico.dproj</Transaction>
+    <Transaction>2020/05/09 19:28:27.891,=C:\Users\vinic\Documents\Embarcadero\Studio\Projects\AppSuporteMedico\ModelSupport_SuporteMedico\default.txaPackage</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
