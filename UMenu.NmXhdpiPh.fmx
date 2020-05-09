@@ -239,20 +239,32 @@ inherited FMenu_NmXhdpiPh: TFMenu_NmXhdpiPh
           Size.Width = 400.000000000000000000
         end
       end
-      inherited LayoutButton: TLayout
+    end
+    inherited LayoutButton: TLayout
+      Size.Width = 400.000000000000000000
+      Size.Height = 615.000000000000000000
+      inherited LayoutConfirma: TLayout
         Size.Width = 400.000000000000000000
-        Size.Height = 254.000000000000000000
-        inherited LayoutConfirma: TLayout
-          Size.Width = 400.000000000000000000
-          inherited RoundRect4: TRoundRect
-            Size.Width = 394.000000000000000000
-            inherited BtnEntrar: TButton
-              Size.Width = 392.000000000000000000
-              TextSettings.Font.StyleExt = {00070000000000000004000000}
-            end
+        inherited RoundRect4: TRoundRect
+          Size.Width = 394.000000000000000000
+          inherited BtnEntrar: TButton
+            Size.Width = 392.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
           end
         end
       end
+    end
+  end
+  inherited LayoutUpdate: TLayout
+    inherited rect_botao: TRectangle
+      inherited btnAtualizar: TSpeedButton
+        OnClick = nil
+        OnMouseDown = nil
+        OnMouseUp = nil
+      end
+    end
+    inherited RectUpadate: TRectangle
+      Stroke.CustomDash = {0000000000000000}
     end
   end
 end

@@ -240,20 +240,33 @@ inherited FMenu_iPad: TFMenu_iPad
           Size.Width = 768.000000000000000000
         end
       end
-      inherited LayoutButton: TLayout
+    end
+    inherited LayoutButton: TLayout
+      Size.Width = 768.000000000000000000
+      Size.Height = 1004.000000000000000000
+      inherited LayoutConfirma: TLayout
         Size.Width = 768.000000000000000000
-        Size.Height = 643.000000000000000000
-        inherited LayoutConfirma: TLayout
-          Size.Width = 768.000000000000000000
-          inherited RoundRect4: TRoundRect
-            Size.Width = 762.000000000000000000
-            inherited BtnEntrar: TButton
-              Size.Width = 760.000000000000000000
-              TextSettings.Font.StyleExt = {00070000000000000004000000}
-            end
+        inherited RoundRect4: TRoundRect
+          Size.Width = 762.000000000000000000
+          inherited BtnEntrar: TButton
+            Size.Width = 760.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
           end
         end
       end
+    end
+  end
+  inherited LayoutUpdate: TLayout
+    inherited rect_botao: TRectangle
+      inherited btnAtualizar: TSpeedButton
+        Size.Height = 44.000000000000000000
+        OnClick = nil
+        OnMouseDown = nil
+        OnMouseUp = nil
+      end
+    end
+    inherited RectUpadate: TRectangle
+      Stroke.CustomDash = {0000000000000000}
     end
   end
 end

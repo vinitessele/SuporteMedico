@@ -405,6 +405,11 @@
             <Form>FMenu</Form>
             <FormType>fmx</FormType>
         </DCCReference>
+        <DCCReference Include="uOpenViewUrl.pas"/>
+        <DCCReference Include="UPrincipal.pas">
+            <Form>FPrincipal</Form>
+            <FormType>fmx</FormType>
+        </DCCReference>
         <None Include="ModelSupport_SuporteMedico\default.txaPackage"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
