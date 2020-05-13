@@ -37,7 +37,6 @@ type
     img_seta: TImage;
     ImageBase: TImage;
     RectAnimation1: TRectAnimation;
-    btnInf: TSpeedButton;
     procedure btnAtualizarClick(Sender: TObject);
     procedure BtnEntrarMouseDown(Sender: TObject; Button: TMouseButton;
       Shift: TShiftState; X, Y: Single);
@@ -57,6 +56,9 @@ var
 implementation
 
 {$R *.fmx}
+{$R *.LgXhdpiTb.fmx ANDROID}
+{$R *.Macintosh.fmx MACOS}
+{$R *.LgXhdpiPh.fmx ANDROID}
 
 uses uOpenViewUrl, UPrincipal;
 {$R *.LgXhdpiPh.fmx ANDROID}
