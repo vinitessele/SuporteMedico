@@ -7,15 +7,14 @@ uses
   uOpenViewUrl in 'uOpenViewUrl.pas',
   UPrincipal in 'UPrincipal.pas' {FPrincipal},
   UDM in 'UDM.pas' {DM: TDataModule},
-  UModelo in 'UModelo.pas' {FModelo};
+  UModelo in 'UModelo.pas' {FModelo},
+  UPaciente in 'UPaciente.pas' {FPaciente};
 
 {$R *.res}
 
 begin
   Application.Initialize;
-  Application.CreateForm(TFMenu, FMenu);
-  Application.CreateForm(TFPrincipal, FPrincipal);
   Application.CreateForm(TDM, DM);
-  Application.CreateForm(TFModelo, FModelo);
+  Application.CreateForm(TFMenu, FMenu);
   Application.Run;
 end.

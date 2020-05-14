@@ -14,7 +14,18 @@ type
   TDM = class(TDataModule)
     FDConnection1: TFDConnection;
     FDPhysMySQLDriverLink1: TFDPhysMySQLDriverLink;
-    FDQuery1: TFDQuery;
+    FDQPacienteGetNome: TFDQuery;
+    FDQPacienteGetNomeNOME: TStringField;
+    FDQPacienteGetNomeTELEFONE1: TStringField;
+    FDQPacienteGetNomeCELULAR: TStringField;
+    FDQPacienteGetNomeENDERECO: TStringField;
+    FDQPacienteGetNomeCPF: TStringField;
+    FDQPacienteGetNomeSEXO: TStringField;
+    FDQPacienteGetNomeDATANASC: TDateTimeField;
+    FDQCidade: TFDQuery;
+    FDQCidadeCODIGO: TIntegerField;
+    FDQCidadeNOME: TStringField;
+    FDQCidadeESTADO: TStringField;
   private
     { Private declarations }
   public

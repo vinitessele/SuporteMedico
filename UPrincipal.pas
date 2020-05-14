@@ -3,7 +3,8 @@ unit UPrincipal;
 interface
 
 uses
-  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  System.SysUtils, System.Types, System.UITypes, System.Classes,
+  System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
   FMX.Controls.Presentation, FMX.StdCtrls, FMX.Layouts, FMX.MultiView,
   FMX.Objects, Data.FMTBcd, Data.DB, Data.SqlExpr;
@@ -56,6 +57,8 @@ type
     Label6: TLabel;
     Label7: TLabel;
     Label8: TLabel;
+    procedure Rectangle6Click(Sender: TObject);
+    procedure RoundRect1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -68,6 +71,30 @@ var
 implementation
 
 {$R *.fmx}
+
+uses UPaciente;
 {$R *.LgXhdpiTb.fmx ANDROID}
+
+procedure TFPrincipal.Rectangle6Click(Sender: TObject);
+begin
+  if not Assigned(FPaciente) then
+    FPaciente := TFPaciente.Create(nil);
+  FPaciente.ShowModal(
+    procedure(ModalResult: TModalResult)
+    begin
+
+    end);
+end;
+
+procedure TFPrincipal.RoundRect1Click(Sender: TObject);
+begin
+  if not Assigned(FPaciente) then
+    FPaciente := TFPaciente.Create(nil);
+  FPaciente.ShowModal(
+    procedure(ModalResult: TModalResult)
+    begin
+
+    end);
+end;
 
 end.
